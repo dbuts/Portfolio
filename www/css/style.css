@@ -11,9 +11,16 @@ p {
 }
 
 h1 {
+	border: 0.
 	font-family: 'Noto Sans', sans-serif;
 }
 
 body {
 	background-color: white;
+}
+
+footer {
+   	position:absolute;
+	bottom:0;
+ 	width:100%;
 }
