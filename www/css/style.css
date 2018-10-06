@@ -9,17 +9,19 @@ div{
 }
 
 p {
+	font-size: 95%;
 	padding:.5px 35px;
 	font-family: 'Noto Sans', sans-serif;
 }
 
 h1 {
 	padding: 10px 25px;
-	border-top:1px solid rgb(217, 217, 217);
-	border-bottom:1px solid rgb(217, 217, 217);
+	border-top:1px solid rgb(175, 175, 175);
+	border-bottom:1px solid rgb(175, 175, 175);
 	font-family: 'Noto Sans', sans-serif;
 	margin-top: 0px;
 	margin-bottom: 0px;
+	color: #2c518e;
 }
 
 h2 {
@@ -39,6 +41,7 @@ ul{
 }
 
 ul li{
+	font-size: 95%;
 	margin: 10px;
 }
 
@@ -58,5 +61,13 @@ a {
 
 /* contact information sytling */
 p.contact_info{
+	font-weight:bold;
+	font-size: 90%;
 	margin: 0.5px;
+}
+
+a.links{
+	color: #1f4075;
+	text-align: right;
+	font-weight: bold;
 }
