@@ -4,13 +4,13 @@
 }
 
 p {
-	border: 1px solid powderblue;
-	background: powderblue;
-	padding: 30px;
 	font-family: 'Noto Sans', sans-serif;
 }
 
 h1 {
+	border: 1px solid #3b80ef;
+	background: #3b80ef;
+	padding: 30px;
 	font-family: 'Noto Sans', sans-serif;
 }
 
@@ -22,4 +22,8 @@ footer {
    	position:absolute;
 	bottom:0;
  	width:100%;
+}
+
+a {
+	font-family: 'Noto Sans', sans-serif;
 }
