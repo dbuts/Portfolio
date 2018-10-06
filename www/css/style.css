@@ -3,15 +3,43 @@
 	src: url("https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet");
 }
 
+div{
+	text-align: center;
+	width: 300px;
+}
+
 p {
+	padding:.5px 35px;
 	font-family: 'Noto Sans', sans-serif;
 }
 
 h1 {
-	border: 1px solid #3b80ef;
-	background: #3b80ef;
-	padding: 30px;
+	padding: 10px 25px;
+	border-top:1px solid rgb(217, 217, 217);
+	border-bottom:1px solid rgb(217, 217, 217);
 	font-family: 'Noto Sans', sans-serif;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+h2 {
+	font-family: 'Noto Sans', sans-serif;
+	padding: 2.5px 35px;
+	font-size: medium;
+}
+
+h3 {
+	font-family: 'Noto Sans', sans-serif;
+	padding: 2.5px 35px;
+	font-size: small;
+}
+
+ul{
+	padding: 0px 65px;
+}
+
+ul li{
+	margin: 10px;
 }
 
 body {
@@ -26,4 +54,9 @@ footer {
 
 a {
 	font-family: 'Noto Sans', sans-serif;
+}
+
+/* contact information sytling */
+p.contact_info{
+	margin: 0.5px;
 }
