@@ -22,12 +22,15 @@ h1 {
 	margin-top: 0px;
 	margin-bottom: 0px;
 	color: #2c518e;
+	font-size: 150%;
+	font-weight: bold;
 }
 
 h2 {
 	font-family: 'Noto Sans', sans-serif;
 	padding: 2.5px 35px;
 	font-size: medium;
+	font-weight: 550;
 }
 
 h3 {
@@ -69,5 +72,6 @@ p.contact_info{
 a.links{
 	color: #1f4075;
 	text-align: right;
+	font-size: small;
 	font-weight: bold;
 }
