@@ -4,8 +4,8 @@
 }
 
 div{
-	text-align: center;
-	width: 300px;
+	width: 960px;
+	margin: 20px auto;
 }
 
 p {
@@ -15,12 +15,14 @@ p {
 }
 
 h1 {
-	padding: 10px 25px;
+	padding: 10px 10px;
 	border-top:1px solid rgb(175, 175, 175);
 	border-bottom:1px solid rgb(175, 175, 175);
 	font-family: 'Noto Sans', sans-serif;
 	margin-top: 0px;
 	margin-bottom: 0px;
+	margin-left: 15px;
+	margin-right: 15px;
 	color: #2c518e;
 	font-size: 150%;
 	font-weight: bold;
@@ -73,9 +75,13 @@ p.contact_info{
 
 a.links{
 	color: #1f4075;
-	text-align: right;
+	text-align: center;
 	font-size: small;
 	font-weight: bold;
+}
+div.links{
+	text-align: center;
+	width: 960px;
 }
 
 img.links{
