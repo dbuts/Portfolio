@@ -10,7 +10,7 @@ div{
 
 p {
 	font-size: 95%;
-	padding:.5px 35px;
+	padding:10px 35px;
 	font-family: 'Noto Sans', sans-serif;
 }
 
@@ -28,7 +28,7 @@ h1 {
 
 h2 {
 	font-family: 'Noto Sans', sans-serif;
-	padding: 2.5px 35px;
+	padding: 5px 35px 2.5px;
 	font-size: medium;
 	font-weight: 550;
 }
@@ -46,6 +46,7 @@ ul{
 ul li{
 	font-size: 95%;
 	margin: 10px;
+	list-style-type: disc;
 }
 
 body {
@@ -67,6 +68,7 @@ p.contact_info{
 	font-weight:bold;
 	font-size: 90%;
 	margin: 0.5px;
+	padding: .5px 25px;
 }
 
 a.links{
@@ -74,4 +76,8 @@ a.links{
 	text-align: right;
 	font-size: small;
 	font-weight: bold;
+}
+
+img.links{
+	padding: 0.5px 0px 0px 25px;
 }
