@@ -5,7 +5,8 @@
 
 div{
 	width: 960px;
-	margin: 20px auto;
+	margin: 15px auto;
+	margin-top: 84px;
 }
 
 p {
@@ -16,16 +17,16 @@ p {
 
 h1 {
 	padding: 10px 10px;
-	border-top:1px solid rgb(175, 175, 175);
 	border-bottom:1px solid rgb(175, 175, 175);
 	font-family: 'Noto Sans', sans-serif;
 	margin-top: 0px;
 	margin-bottom: 0px;
 	margin-left: 15px;
 	margin-right: 15px;
-	color: #3d6dbb;
+	color: #3258a4;
 	font-size: 225%;
 	font-weight: bold;
+	text-align: center;
 }
 
 h2 {
@@ -37,16 +38,16 @@ h2 {
 	margin-bottom: 0px;
 	margin-left: 15px;
 	margin-right: 15px;
-	color: #3d6dbb;
+	color: #1d4596;
 	font-size: 150%;
-	font-weight: bold;
-}
+	font-weight: bold; }
 
 h3 {
 	font-family: 'Noto Sans', sans-serif;
 	padding: 5px 35px 2.5px;
 	font-size: medium;
 	font-weight: 550;
+	color: black;
 }
 
 h4 {
@@ -66,10 +67,6 @@ ul li{
 	font-size: 95%;
 	margin: 10px;
 	list-style-type: disc;
-}
-
-body {
-	background-color: white;
 }
 
 footer {
@@ -99,6 +96,7 @@ a.links{
 div.links{
 	text-align: center;
 	width: 960px;
+	margin-top: 10px;
 }
 
 img.links{
@@ -108,14 +106,27 @@ img.links{
 .alignleft {
 	width: 960px;
 	margin: 0px auto;
+	margin-bottom: 25.5px;
 	float: left;
 }
 
 .alignright {
 	position: relative;
-	margin-top: -25px;
-	color: #bb4c3d;
+	margin-top: -52px;
+	margin-bottom: 5.5px;
+	color: #238cb4;
 	width: 960px;
 	float: right;
 	text-align: right;
+}
+.pageheader{
+	position:fixed;
+	top: 0;
+	margin: 0px auto;
+	width: 75%;
+	position: fixed;
+	left: 50%;
+	margin-left: -37.5%;
+	z-index: 100;
+	background-color: white;
 }
